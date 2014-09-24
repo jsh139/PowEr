@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowEr", "PowEr\PowEr.csproj", "{B94143ED-625E-400C-ABA0-72905620CE1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartIrc4net", "SmartIrc4net-0.4.0-src\VisualStudio\2005\SmartIrc4net.csproj", "{19607F57-B521-4477-9DE0-F0D9B1A68BC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B94143ED-625E-400C-ABA0-72905620CE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94143ED-625E-400C-ABA0-72905620CE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94143ED-625E-400C-ABA0-72905620CE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94143ED-625E-400C-ABA0-72905620CE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19607F57-B521-4477-9DE0-F0D9B1A68BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19607F57-B521-4477-9DE0-F0D9B1A68BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19607F57-B521-4477-9DE0-F0D9B1A68BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19607F57-B521-4477-9DE0-F0D9B1A68BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
