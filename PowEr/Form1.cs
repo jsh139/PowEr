@@ -13,14 +13,13 @@ namespace PowEr
 {
     public partial class Form1 : Form
     {
-//		public bool SafeMode = false;
-//		public string InitialServer = "vancouver.bc.ca.undernet.org";
-//		public string InitialChannel = "#netsex";
-		public bool SafeMode = false;
-		public string InitialServer = "irchost.lexisnexis.com";
-        public string InitialNick = "PowEr";
-		public string InitialChannel = "#CourtLink";
+        public bool SafeMode = false;
+        public string InitialServer = "us.undernet.org";
+        public string InitialChannel = "#chat";
+        //public string InitialServer = "irchost.lexisnexis.com";
+        //public string InitialChannel = "#CourtLink";
         public int InitialPort = 6667;
+        public string InitialNick = "PowEr";
 
         public static IrcClient irc = new IrcClient();
         public pubcomm pub;

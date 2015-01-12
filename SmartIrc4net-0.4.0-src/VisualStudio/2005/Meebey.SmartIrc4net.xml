@@ -2875,5 +2875,16 @@
              </summary>
              <threadsafety static="true" instance="true" />
         </member>
+        <member name="T:Meebey.SmartIrc4net.LogCategory">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:Meebey.SmartIrc4net.Logger">
+             <summary>
+            
+             </summary>
+             <threadsafety static="true" instance="true" />
+        </member>
     </members>
 </doc>
