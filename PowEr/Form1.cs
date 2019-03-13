@@ -1,13 +1,10 @@
-﻿using System;
+﻿using Meebey.SmartIrc4net;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Text;
 using System.Threading;
 using System.Windows.Forms;
-using Meebey.SmartIrc4net;
 
 namespace PowEr
 {

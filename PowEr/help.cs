@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Meebey.SmartIrc4net;
 using System.Threading;
-using Meebey.SmartIrc4net;
 
 namespace PowEr
 {

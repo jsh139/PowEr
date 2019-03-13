@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Meebey.SmartIrc4net;
+﻿using Meebey.SmartIrc4net;
+using System;
 
 namespace PowEr
 {
@@ -169,8 +167,6 @@ namespace PowEr
                 Response = String.Format(Shutup[rand.Next(0, Shutup.Length - 1)], Nick);
             else if (Message.IndexOf("sorry") >= 0)
                 Response = String.Format("say takE iT eaSy, {0}!", Nick);
-//            else if (Message.IndexOf("break for carla") >= 0)
-//                Response = String.Format("me transports Carla to a magical island paradise. Courtesy of {0}!", Nick);
             else if (Message.IndexOf("fuck") >= 0 || Message.IndexOf("sux") >= 0 || Message.IndexOf("suck") >= 0)
             {
                 IrcUser usr = irc.GetIrcUser(Nick);
